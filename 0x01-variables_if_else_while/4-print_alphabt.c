@@ -10,14 +10,16 @@
 
 int main(void)
 {
-    char letter;
-    letter = 'a';
-    while (letter <= 'z')
-    {
-        if (letter != 'q' && letter != 'e')
-            putchar(letter);
-        letter++;
-    }
-    putchar('\n');
-    return (0);
+char z = 'a';
+
+while (z <= 'z')
+{
+	if (z != 'e' && z != 'q')
+	{
+		putchar(z);
+	}
+	z++;
+}
+putchar('\n');
+return (0);
 }
