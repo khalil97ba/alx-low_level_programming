@@ -7,11 +7,17 @@
  * Author: ibrahima ba
  */
 
-int main(void) {
-int i;
-  for ( i = 0; i < 10; i++)
+int main(void)
 {
-    printf("%d\n", i);
-  }
-  return 0;
+int a;
+a = 0;
+
+while (a <= 9)
+{
+	printf("%d", a);
+	a++;
+}
+putchar('\n');
+
+return (0);
 }
