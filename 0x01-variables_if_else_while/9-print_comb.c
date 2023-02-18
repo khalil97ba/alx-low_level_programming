@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.>
+
+/**
+ * main - Entry point
+ * Description: Print all single integer numbers of base 10
+ * 		stating from 0, followed by a new line
+ * Return: Always 0
+ * Author: ibrahima ba
+ */
+
+int main(void)
+{
+int integer;
+
+for (integer = '0'; integer <= '9'; integer++)
+{
+	putchar(integer);
+
+	if (integer != '9')
+
+	{
+		putchar(',');
+		putchar(' ');
+	}
+}
+putchar('\n');
+
+return (0);
+}
