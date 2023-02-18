@@ -7,6 +7,7 @@
  * Description: Print all single integer numbers of base 10
  * 		stating from 0, followed by a new line
  * Return: Always 0
+ * Author: ibrahima ba
  */
 
 int main(void)
