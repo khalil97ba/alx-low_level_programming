@@ -4,18 +4,17 @@
  *main - Entry point
  *
  *Return: Always 0
- *Author: Ibrahima ba
  */
 
 int main(void)
 {
-char z;
-z = 'a';
+char lc;
+lc = 'a';
 
-while (z <= 'z')
+while (lc <= 'z')
 {
 	putchar(z);
-	z++;
+	lc++;
 }
 putchar('\n');
 return (0);
