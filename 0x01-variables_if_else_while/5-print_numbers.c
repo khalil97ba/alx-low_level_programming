@@ -1,21 +1,20 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
  * Description: Print numbers 0 to 9 followed by a newline
  * Return: Always 0
- * Author: ibrahima ba
  */
 
 int main(void)
 {
-int a;
-a = 0;
+int lc;
 
-while (a <= 9)
+for (lc = 0; lc <= 9; lc++)
 {
-	printf("%d", a);
-	a++;
+	printf("%d", lc);
 }
 putchar('\n');
 
