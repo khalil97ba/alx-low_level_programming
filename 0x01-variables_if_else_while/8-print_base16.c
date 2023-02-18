@@ -1,24 +1,24 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 
 /**
  * main - Entry point
  * Description: Print all the digits of base 16 in lowercase
  * Return: Always 0
- * Author: ibrahima ba
  */
 
 int main(void)
 {
-char x;
+char i;
 
-for (x = '0'; x <= '9'; ++x)
+for (i = '0'; i <= '9'; ++i)
 {
-	putchar(x);
+	putchar(i);
 }
-for (x = 'a'; x <= 'f'; ++x)
+for (i = 'a'; i <= 'f'; ++i)
 {
-	putchar(x);
+	putchar(i);
 }
 putchar('\n');
 
