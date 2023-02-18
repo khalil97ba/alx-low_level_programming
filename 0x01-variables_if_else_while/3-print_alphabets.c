@@ -6,23 +6,22 @@
  * main - Entry point
  * Description: Print lower and upper alphabet on the same line
  * Return: Always 0
- * Author: Ibrahima ba
  */
 
 int main(void)
 {
-char z = 'a';
-char Z = 'A';
+char lc = 'a';
+char LC = 'A';
 
-while (z <= 'z')
+while (lc <= 'z')
 {
-	putchar(z);
-	z++;
+	putchar(lc);
+	lc++;
 }
-while (Z <= 'Z')
+while (LC <= 'Z')
 {
-	putchar(Z);
-	Z++;
+	putchar(LC);
+	LC++;
 }
 putchar('\n');
 return (0);
