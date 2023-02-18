@@ -1,24 +1,24 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 
 /**
  * main - Entry point
  * Description: Print lowercase alphabet excluding e and q
- * Return: Always 0 (Success)
- * Author: Ibrahima ba
+ * Return: Always 0
  */
 
 int main(void)
 {
-char z = 'a';
+char l = 'a';
 
-while (z <= 'z')
+while (l <= 'z')
 {
-	if (z != 'e' && z != 'q')
+	if (l != 'e' && l != 'q')
 	{
-		putchar(z);
+		putchar(l);
 	}
-	z++;
+	l++;
 }
 putchar('\n');
 return (0);
