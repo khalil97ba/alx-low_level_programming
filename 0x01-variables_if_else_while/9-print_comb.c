@@ -5,20 +5,20 @@
 /**
  * main - Entry point
  * Description: Print all single integer numbers of base 10
- *stating from 0, followed by a new line
- * Return: Always 0
- * Author: ibrahima ba
+ *		 stating from 0, followed by a new line
+ * Return: Always 0 (Success)
+ * Author: IanoNjuguna
  */
 
 int main(void)
 {
-int integer;
+int i;
 
-for (integer = '0'; integer <= '9'; integer++)
+for (i = '0'; i <= '9'; i++)
 {
-	putchar(integer);
+	putchar(i);
 
-	if (integer != '9')
+	if (i != '9')
 
 	{
 		putchar(',');
