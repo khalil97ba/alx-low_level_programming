@@ -1,22 +1,23 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 
 /**
  * main - Entry point
  * Description: Print lowercase alphabet backwards followed by a newline.
  * Return: Always 0
- * Author: ibrahima ba
  */
 
 int main(void)
 {
-char z;
+char i;
 
-for (z = 'z'; z >= 'a'; z--)
+for (i = 'z'; i >= 'a'; i--)
 {
-	putchar(z);
+	putchar(i);
 }
 putchar('\n');
 
 return (0);
 }
+
