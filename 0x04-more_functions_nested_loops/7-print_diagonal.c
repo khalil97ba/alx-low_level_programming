@@ -3,7 +3,7 @@
 /**
  * print_diagonal - prints diagonal line
  *@n: print int
- * Return: Always 0.
+ * Return: Always 0
  */
 void print_diagonal(int n)
 {
@@ -27,8 +27,7 @@ void print_diagonal(int n)
 
 	else
 	{
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
-
 
