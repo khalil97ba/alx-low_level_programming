@@ -7,14 +7,14 @@
 
 int main(void)
 {
-int p;
+
+int p = 100;
 int i;
 
-p = 100;
 i = 1;
-while (i <= 100)
+while (i <= p)
 {
-if (i % 15)
+if (i % 3 == 0 && i % 5 == 0)
 {
 printf("FizzBuzz ");
 }
