@@ -5,8 +5,7 @@
 /**
  * puts2 - prints every other character of a string followed by a new line
  * @str: Pointer to the string
- * Return: Always 0 (Success)
- * Author: IanoNjuguna
+ * Return: Always 0
  */
 
 void puts2(char *str)
